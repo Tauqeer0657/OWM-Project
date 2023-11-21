@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin:30px;
+    height: 500px;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    padding :10px 10px 0;
+    background-color: rgb(248, 250, 251);
+}
+.profile{
+    width: 25%;
+}
+.img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(profile.jpg);
+    background-size: cover;
+}
+.user-detail{
+    width: 55%;
+    font-size: 12px;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo img{
+    width: 60px;
+    height: 40px;
+
+}
+
+/* inbound-section */
+
+.inbound-section{
+    margin-top: 10px;
+    background-color: rgb(241, 251, 253);
+    width: 100%;
+    height: 35%;
+    padding: 10px 20px 10px 10px;
+    color: rgb(25, 72, 85);
+}
+.inbound-section .fa-solid{
+    color: rgb(25, 72, 85);
+}
+.inbound .fa-bag-shopping{
+    font-size: 30px;
+    margin-right: 15px;
+}
+.inbound span{
+    font-size: 23px;
+}
+.truck{
+    margin: 20px 0 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-truck{
+    margin: 0 15px 0 6px ;
+}
+hr{
+    width: 98%;
+    margin-inline: auto;
+    margin: 8px;
+}
+.bag{
+    margin: 18px 0 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.bag .fa-bag-shopping{
+    margin: 0 16px 0 6px ;
+    font-size: 20px;
+}
+
+/* cycle-count-section */
+
+.cycle-count{
+    margin-top: 10px;
+    background-color: rgb(248, 250, 251);
+    width: 100%;
+    height: 35%;
+    padding: 20px 20px 10px 10px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+}
+.fa-cart-shopping{
+    font-size: 28px;
+    margin-right: 9px;
+    color: rgb(234, 156, 61);
+}
+.cycle-count span{
+    font-size: 19px;
+    color: rgb(234, 156, 61);
+}
+.bell-1{
+    margin: 20px 0 5px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(85, 95, 109);
+}
+/* for this section bell icon */
+.fa-bell{
+    margin: 0 15px 0 12px;
+    color: rgb(85, 95, 109);
+}
+.bell-2{
+    margin: 20px 0 5px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(85, 95, 109);
+}
+
+/* outbound-section */
+
+.outbound{
+    margin-top: 10px;
+    background-color: rgb(253, 239, 229);
+    width: 100%;
+    height: 45%;
+    padding: 15px 20px 10px 10px;
+}
+.outbound-bag{
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+}
+.outbound-bag .fa-bag-shopping{
+    font-size: 30px;
+    margin-right: 9px;
+    color: rgb(49, 56, 65);
+}
+.outbound-bag span{
+    font-size: 19px;
+    color: rgb(49, 56, 65);
+}
+.outbound-bell{
+    margin: 20px 0 5px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(32, 94, 130);
+}
+.outbound-bell .fa-bell{
+    margin: 0 15px 0 12px;
+    color: rgb(32, 94, 130);
+}
+.outbound-bag-2 .fa-bag-shopping{
+    margin: 0 12px 0 10px ;
+    font-size: 20px;
+}
+.outbound-bag-2{
+    margin: 20px 0 5px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(32, 94, 130);
+}
+.outbound-truck{
+    margin: 20px 0 5px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(32, 94, 130);
+}
+
+/* button */
+
+button{
+    margin-top: 10px;
+    background-color: rgb(31, 93, 132);
+    width: 100%;
+    height: 8%;
+    border: none;
+    color: #fff;
+}
